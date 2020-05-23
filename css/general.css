@@ -76,6 +76,11 @@ img {
     padding-bottom: 30px;
 }
 
+.footer .social-icons {
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
 .footer-cta-title {
     font-size: 42px;
     font-weight: 700;
@@ -93,7 +98,11 @@ img {
 
 .footer-cta-text a {
     color: #4298e8;
-    text-decoration: underline;
+    text-decoration: none;
+}
+
+.footer-cta-text a:hover {
+    color: #067ff0;
 }
 
 /* Для экранов с шириной от 0 до 1170px */
